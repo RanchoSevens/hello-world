@@ -4,6 +4,8 @@ import tensorflow as tf
 import numpy as np
 import glob
 
+# 这是对相机进行正畸的操作，在无人驾驶的视觉处理中较为常见
+
 
 class camera:
     def __init__(self, pic):
